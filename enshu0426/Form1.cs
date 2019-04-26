@@ -16,5 +16,20 @@ namespace enshu0426
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.Blue;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.ForeColor = Color.Pink;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Enabled = false;
+        }
     }
 }
